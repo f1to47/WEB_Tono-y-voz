@@ -18,8 +18,12 @@
 	// padding-bottom: var(--spacing-medium);
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 1000px;
+	padding-left: 50px;
+		padding-right: 50px;
+		max-width: 1000px;
 	height: 100%;
+
+	
   }
 
   section{
@@ -28,30 +32,9 @@
 
   }
   
-  @include sdMin{
-	.container {
-	  max-width: 540px;
-	}
-  }
+ 
   
-  @include mdMin{
-	.container {
-	  max-width: 720px;
-	}
-  }
-  
-  @include ldMin{
-	.container {
-	  max-width: 960px;
-	}
-  }
-  
-  @include xldMin{
-	.container {
-	  max-width: 1140px;
-	}
-  }
-  
+
   .container-fluid {
 	width: 100%;
 	padding-right: var(--spacing-medium);
@@ -67,7 +50,8 @@
 	flex-wrap: wrap;
 	margin-right: calc( 0rem - var(--spacing-medium));
 	margin-left: calc( 0rem - var(--spacing-medium));
-	height: 100%;
+	// height: 100%; 
+	//para que le daba este atributo?
 	
   }
   

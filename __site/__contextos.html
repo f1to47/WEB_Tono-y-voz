@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Manual tono y voz</title>
+   <link rel="stylesheet" href="../__ui/__css-ouput/__font-import.css">
+   <link rel="stylesheet" href="../__ui/__css-ouput/_core.css">
+ 
+</head>
+
+<body>
+   <div class="LAYOUT">
+      <header>
+
+         <div class="logo">
+             <a href="./__inicio.html" class="menu-header">
+               <img src="./src/img/AFPCapital_logotipo.svg" alt="">
+             </a>
+         </div>
+         <div class="title">
+             Manual de voz y tono
+         </div>
+         
+         
+     </header>
+      <div class="layout-sidebar">
+
+
+         <div class="mobile-controller">
+            <input type="checkbox" id="checkbox1" class="checkbox1 visuallyHidden">
+         <label for="checkbox1">
+             <div class="hamburger hamburger1">
+                 <span class="bar bar1"></span>
+                 <span class="bar bar2"></span>
+                 <span class="bar bar3"></span>
+                 <span class="bar bar4"></span>
+             </div>
+         </label>
+         </div>
+
+         
+         <div class="menu sidebar sidebar-left">
+
+           
+
+            <div class="menu-principal">
+               <!-- <a href="./__inicio.html" class="menu-header">
+                  <img src="./src/img/logo-MVT.svg" alt="">
+               </a> -->
+               <a href="./__inicio.html" class="menu-principal-item nav-item-inicio">
+                  <i class="icon icon-Home-fill"></i> Inicio
+               </a>
+               <a href="./__nuestra-voz.html" class="menu-principal-item nav-item-voz">
+                  <i class="icon icon-Voz-fill"></i> Voz
+               </a>
+               <a href="./__nuestros-tonos.html" class="menu-principal-item nav-item-tono">
+                  <i class="icon icon-Tono-fill"></i> Tono
+               </a>
+               <a href="./__contextos.html" class="menu-principal-item nav-item-tono active">
+                  <i class="icon icon-Contexto-fill"></i> Situaciones
+               </a>
+               <a href="./__nuestro-estilo.html" class="menu-principal-item nav-item-estilo">
+                  <i class="icon icon-Estilo-fill"></i> Estilo
+               </a>
+            </div>
+            <div class="menu-sub menu-sub-tono active">
+               <div class="nav-item">
+                  <div onclick="scrollNav('contextos-anchor', event.target)" data-url="contextos-anchor"
+                     class="nav-item nav-section-item">
+                     <a href="">Situaciones</a>
+                  </div>
+               </div>
+               <div class="nav-item">
+                  <div onclick="scrollNav('tarea-completada-anchor', event.target)" data-url="tarea-completada-anchor"
+                     class="nav-item nav-section-item">
+                     <a href="">Tarea completada</a>
+                  </div>
+               </div>
+               <div class="nav-item">
+                  <div onclick="scrollNav('errores-anchor', event.target)" data-url="errores-anchor"
+                     class="nav-item nav-section-item">
+                     <a href="">Errores</a>
+                  </div>
+               </div>
+               <div class="nav-item">
+                  <div onclick="scrollNav('precondiciones-no-cumplidas-anchor', event.target)"
+                     data-url="precondiciones-no-cumplidas-anchor" class="nav-item nav-section-item">
+                     <a href="">Precondiciones no cumplidas</a>
+                  </div>
+               </div>
+               <div class="nav-item">
+                  <div onclick="scrollNav('ingreso-de-datos-incorrectos-anchor', event.target)"
+                     data-url="ingreso-de-datos-incorrectos-anchor" class="nav-item nav-section-item">
+                     <a href="">Ingreso de datos incorrectos</a>
+                  </div>
+
+               </div>
+               <div class="nav-item">
+                  <div onclick="scrollNav('cambios-bloqueantes-anchor', event.target)"
+                     data-url="cambios-bloqueantes-anchor" class="nav-item nav-section-item">
+                     <a href="">Cambios bloqueantes</a>
+                  </div>
+               </div>
+               <div class="nav-item">
+                  <div onclick="scrollNav('entrega-de-conocimiento-anchor', event.target)"
+                     data-url="entrega-de-conocimiento-anchor" class="nav-item nav-section-item">
+                     <a href="">Entrega de conocimiento</a>
+                  </div>
+               </div>
+
+               <div class="nav-item">
+                  <div onclick="scrollNav('procesos-de-espera-anchor', event.target)"
+                     data-url="procesos-de-espera-anchor" class="nav-item nav-section-item">
+                     <a href="">Procesos de espera</a>
+                  </div>
+               </div>
+
+
+               <div class="nav-item">
+                  <div onclick="scrollNav('advertencias-anchor', event.target)" data-url="advertencias-anchor"
+                     class="nav-item nav-section-item">
+                     <a href="">Advertencias</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bodybar">
+            <div class="container">
+               <section id="contextos" class="nav-section intro-section">
+                  <div id="contextos-anchor" class="nav-anchor"></div>
+                  <div class="row">
+                     <div class="col-12">
+                        <img src="./src/img/Estilo-image.svg" alt="Nuestros tonos" class="intro-img">
+                       
+                        <h1>Situaciones</h1>
+                        <br>
+                        <p>
+                           Nuestros <a href="./__nuestros-tonos.html">tonos</a> cambian según el contexto, por eso, 
+                           <strong>
+                           hablamos considerando la situación en la que se encuentra la persona usuaria.
+                           </strong>
+                           <br><br>
+                           <!-- Estas son algunas situaciones frecuentes dentro de nuestras plataformas: -->
+                        </p>
+                        <div class="readMore" onclick="scrollNav('tarea-completada-anchor', event.target)">
+                           <p>Conoce las situaciones consideradas</p>
+                           <img src="./src/img/gif/scrolling_mousewheel.gif" width="80px">
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section id="tarea-completada" class="nav-section">
+                  <div id="tarea-completada-anchor" class="nav-anchor"></div>
+                  <div class="row">
+                     <div class="col-12">
+                        <h2>Tarea completada</h2>
+                        <br>
+                        <p>
+                           Notificamos que una tarea fue finalizada con éxito. 
+<br><br>
+Para estos casos recomendamos los siguientes tonos:
+                        </p>
+                     </div>
+                  </div>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono Conversacional</h3>
+                        <p>
+                           Redactamos nuestros mensajes como si estuviéramos en una conversación.  </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Ingresamos tu solicitud de cambio de fondos
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Solicitud de cambio de fondos ingresada
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono enérgico</h3>
+                        <p>
+                           Usamos signos de exclamación para dar énfasis de que se trata de una buena noticia y también para reconocer el trabajo 
+                           de la persona usuaria. 
+
+
+                           <br><br>
+                           <!-- Reconocemos el trabajo de la persona, usando frases como: "Has completado", "Has solicitado". -->
+
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              ¡Recibimos tu solicitud!
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Solicitud enviada
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono breve</h3>
+                        <p>
+                           Comunicamos el mensaje de la forma más breve y clara posible.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Ingresamos tu solicitud con éxito
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Tu solicitud se ha concretado de forma exitosa
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+               </section>
+               <section id="errores" class="nav-section">
+                  <div id="errores-anchor" class="nav-anchor"></div>
+                  <div class="row">
+                     <div class="col-12">
+                        <h2>Errores</h2>
+                        <br>
+                        <p>
+                           Informamos que ha ocurrido un error. 
+                        </p>
+                        <div class="alert alert-info emphasis_-_1">
+                           <p>
+                              No consideramos un error el mal ingreso de un dato por parte del usuario, esos casos son
+                              considerados como
+                              <a onclick="scrollNav('ingreso-de-datos-incorrectos-anchor', event.target)"
+                                 data-url="ingreso-de-datos-incorrectos-anchor">ingreso de datos incorrectos</a>
+                           </p>
+                        </div>
+                        <p>
+                           Para estos casos recomendamos los siguientes tonos:
+                        </p>
+                     </div>
+                  </div>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono Amable</h3>
+                        <p>
+                           Ofrecemos disculpas por el error.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                             <strong>Lo sentimos, hubo un error</strong> al cargar la información de tus cuentas. <strong>Por favor</strong>, vuelve a intentarlo
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Hubo un error al cargar la información de tus cuentas. Vuelve a intentarlo
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono Informativo</h3>
+                        <p>
+                           Entregamos la información necesaria del error.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Lo sentimos, hubo un error al <strong>cargar la infomación de tus cuentas.</strong> 
+                              Por favor, vuelve a intentarlo
+
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Lo sentimos, hubo un error. Vuelve a intentarlo
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono propositivo</h3>
+                        <p>
+                           Al final del mensaje entregamos una opción o alternativa para alcanzar el objetivo.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Lo sentimos, hubo un error al cargar la información de tus cuentas. 
+                           
+                              <span style="text-decoration: underline;">Por favor, vuelve a intentarlo</span>
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Lo sentimos, hubo un error al cargar la información de tus cuentas
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+               </section>
+               <section id="precondiciones-no-cumplidas" class="nav-section">
+                  <div id="precondiciones-no-cumplidas-anchor" class="nav-anchor"></div>
+                  <div class="row">
+                     <div class="col-12">
+                        <h2>Precondiciones no cumplidas</h2>
+                        <br>
+                        <p>
+                           Informamos que una o varias precondiciones necesarias para ejecutar un proceso no se cumplen.
+                           <br><br>
+                           Para estos casos recomendamos los siguientes tonos:
+                        </p>
+                     </div>
+                  </div>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono informativo</h3>
+                        <p>
+                           Entregamos información suficiente para que la persona conozca la precondición que no cumplió.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Debes contar con un mínimo de $2.000 pesos para girar
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Saldo insuficiente
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono Positivo</h3>
+                        <p>
+                           Evitamos usar negaciones como la palabra “NO”
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Tienes un cambio de AFP en curso.
+                              Debes esperar a que el proceso finalice para girar
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Tienes un cambio de AFP en curso
+                              <strong>No puedes</strong> girar hasta que el proceso finalice
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-12">
+                        <p>
+                           Si no podemos evitar la negación o palabras que transmitan algún grado de negatividad, intentamos usar un lenguaje pasivo.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              No se puede realizar el giro.
+                              Necesitas un mínimo de $2.000 pesos para girar
+                              
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              No puedes girar.
+                              Necesitas un mínimo de $2.000 pesos
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono propositivo </h3>
+                        <p>
+                           Siempre que sea posible, ofrecemos una acción que permita cumplir la precondición o una alternativa diferente para alcanzar el objetivo.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              El monto mínimo de Giro Diferido son $300.000 
+Por favor, <strong>intenta con Giro Fácil</strong>
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              El monto mínimo de Giro diferido son $300.000
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+               </section>
+               <section id="ingreso-de-datos-incorrectos" class="nav-section">
+                  <div id="ingreso-de-datos-incorrectos-anchor" class="nav-anchor"></div>
+                  <div class="row">
+                     <div class="col-12">
+                        <h2>Ingreso incorrecto de datos</h2>
+                        <br>
+                        <p>
+                           Informamos que los datos entregados son incorrectos o con formato inválido.
+<br><br>
+Para estos casos recomendamos los siguientes tonos:
+                        </p>
+                     </div>
+                  </div>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono informativo</h3>
+                        <p>
+                           Entregamos información suficiente para la persona entienda qué dato es incorrecto y cómo debería ser correcto.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Ingresa un correo válido como: joe@correo.com
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Ingresa un correo válido
+                           </p>
+                        </div>
+                     </div>
+                     </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono Breve</h3>
+                        <p>
+                           Comunicamos el mensaje de la forma más breve y clara posible.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Clave incorrecta. Te quedan 2 intentos
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              La clave ingresada es incorrecta. Te quedan 2 intentos más
+                           </p>
+                        </div>
+                     </div>
+                     </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono positivo</h3>
+                        <p>
+                           Evitamos la negación con la palabra “NO”. 
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Clave incorrecta. Te quedan 2 intentos
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              La clave no es correcta. Te quedan 2 intentos
+                           </p>
+                        </div>
+                     </div>
+                     </div>
+                  </section>
+               </section>
+               <section id="cambios-bloqueantes" class="nav-section">
+                  <div id="cambios-bloqueantes-anchor" class="nav-anchor"></div>
+                  <div class="row">
+                     <div class="col-12">
+                        <h2>Cambios bloqueantes</h2>
+                        <br>
+                        <p>
+                           Son aquellos casos donde las condiciones iniciales durante un proceso cambian, modificando o bloqueando su continuidad.
+<br><br>
+Para esto recomendamos los siguientes tonos:
+                        </p>
+                     </div>
+                  </div>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono Informativo</h3>
+                        <p>
+                           Entregamos información suficiente para que la persona entienda lo que pasó y evite que vuelva a suceder.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Cerramos tu sesión. <br>
+                              Por motivos de seguridad, tu sesión se cierra luego de 20 minutos de inactividad
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Tu sesión expiró por inactividad
+                           </p>
+                        </div>
+                     </div>
+                     </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono Propositivo</h3>
+                        <p>
+                           Siempre que se pueda, entregamos una solución al bloqueante.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Por tu seguridad, la clave de acceso ha sido bloqueada después de 3 intentos fallidos.
+                              <br>
+                              <span style="text-decoration: underline;">
+                                 Recuperar clave
+                              </span>
+                           </p>
+                        </div>
+                        
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                     <div class="no-to-do">
+                        <p>
+                           Por tu seguridad, la clave de acceso ha sido bloqueada, después de 3 intentos fallidos
+                           
+                        </p>
+                     </div>
+                  </div>
+                   </div>
+                  </section>
+
+               </section>
+               <section id="entrega-de-conocimiento" class="nav-section">
+                  <div id="entrega-de-conocimiento-anchor" class="nav-anchor"></div>
+                  <div class="row">
+                     <div class="col-12">
+                        <h2>Entrega de conocimiento</h2>
+                        <br>
+                        <p>
+                           Informamos para dar conocimiento sobre algún tema en particular.
+<br><br>
+Para estos casos recomendamos los siguientes tonos:
+                        </p>
+                     </div>
+                  </div>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono conversacional</h3>
+                        <p>
+                           Redactamos nuestros mensajes como si estuvieramos en una conversación. 
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              ¿Cómo será el pago de la PGU?
+<br><br>
+Si recibías tu pensión por depósito bancario y caja Los Héroes el pago será...
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Nueva forma de pago de la PGU
+<br><br>
+Si el afiliado recibía su pensión por depósito bancario y caja Los Héroes el pago será...
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono Informativo</h3>
+                        <p>
+                           Nuestro mensaje entrega información sin dejar de ser claro y conciso. Si usamos conceptos técnicos, los explicamos en el relato o con un enlace.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Debes cumplir con la edad legal de jubilación, tener mínimo 65 años en el caso de los hombres y 60 las mujeres
+                              <br>
+                              <span style="text-decoration: underline;">
+                              Debes cumplir con la edad de jubilación
+                              </span>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono Didáctico</h3>
+                        <p>
+                           Podemos usar recursos complementarios al texto para reforzar el entendimiento de la información como: ilustraciones, gráficos, fotos, capturas o videos
+                        </p>
+                        <br><br>
+                        <img src="./src/img/ej-multifondos.png" alt="" style="max-width: 600px;">
+                     </div>
+                  </div>
+                  </section>
+               </section>
+               <section id="procesos-de-espera" class="nav-section">
+                  <div id="procesos-de-espera-anchor" class="nav-anchor"></div>
+                  <div class="row">
+                     <div class="col-12">
+                        <h2>Procesos de espera</h2>
+                        <br>
+                        <p>
+                           Le pedimos un momento a la persona usuaria para que finalice el proceso.
+<br><br>
+Para estos casos recomendamos los siguientes tonos:
+                        </p>
+                     </div>
+                  </div>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono amable</h3>
+                        <p>
+                           Somos amables al pedir un momento de espera. 
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Por favor espera, estamos validando tu identidad
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Estamos validando tu identidad,
+espera un momento
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono breve</h3>
+                        <p>
+Comunicamos el mensaje de la forma más breve y clara posible.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Estamos validando tu identidad.
+                              <br>
+Por favor, espera un momento
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Estamos validando tu identidad vía biometría facial.
+                              <br> 
+Por favor espera un momento a que termine el proceso
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono informativo</h3>
+                        <p>
+                           Informamos acerca de qué proceso se está ejecutando, y si es posible, el tiempo estimado que tardará.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Este proceso podría tardar <strong>hasta 2 minutos</strong>
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Este proceso podría tardar
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+               </section>
+               <section id="advertencias" class="nav-section">
+                  <div id="advertencias-anchor" class="nav-anchor"></div>
+                  <div class="row">
+                     <div class="col-12">
+                        <h2>Advertencias</h2>
+                        <br>
+                        <p>
+                           Entregamos información para prevenir algún fallo, evitar la toma de decisiones sin considerar aspectos esenciales.  
+                        </p>
+                        <div class="alert alert-info emphasis_-_1">
+                           <p>
+                              No consideramos como advertencia algo que impida el inicio de un proceso, esos casos son conocidos como 
+                              <a href="" onclick="scrollNav('precondiciones-no-cumplidas-anchor', event.target)"
+                              data-url="precondiciones-no-cumplidas-anchor" class="nav-item nav-section-item">Precondiciones no cumplidas</a>
+                              
+                           </p>
+                        </div>
+                        <p>
+                           Para estos casos recomendamos los siguientes tonos:
+                        </p>
+                     </div>
+                  </div>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono informativo</h3>
+                        <p>
+                           Informamos con detalle lo que va o podría ocurrir. 
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              Si la suma de las rentabilidades anuales de todos tus giros de Cuenta 2 es menor a 30 UTM, no pagarás impuestos, pero si supera dicho monto, tendrás que pagar el Impuesto Global Complementario en la Declaración de Impuestos anual
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              Si la suma de las rentabilidades anuales tus giros de Cuenta 2 es menor a 30 UTM, no pagarás impuestos, pero si supera dicho monto, tendrás que pagar impuestos.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+                  <section class="tono">
+                     <div class="row">
+                     <div class="col-12">
+                        <h3>Tono propositivo</h3>
+                        <p>
+                           Si es posible, al final del mensaje entregamos un llamado que invite a realizar una acción que esté relacionada con lo que se está comunicando.
+                        </p>
+                     </div>
+                     <div class="col-sm-6 to-do-group">
+                        <div class="to-do">
+                           <p>
+                              La sucursal de San Bernardo cerrará de forma permanente el viernes 28 de octubre de 2022. Te sugerimos visitar otras <span style="text-decoration: underline;">
+                                 sucursales</span>
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="col-sm-6 to-do-group">
+                        <div class="no-to-do">
+                           <p>
+                              La sucursal de San Bernardo cerrará de forma permanente el viernes 28 de octubre de 2022
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+               </section>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="./src/js/scrollTo.js"></script>
+   <script src="./src/js/components/modal/modal.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+
+</html>

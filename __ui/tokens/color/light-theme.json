@@ -2,43 +2,43 @@
   "Foundation": {
     "Primary": {
       "primary-50": {
-        "value": "#e6ebf6",
+        "value": "#e6f1fb",
         "type": "color"
       },
       "primary-100": {
-        "value": "#b0c0e2",
+        "value": "#b0d2f3",
         "type": "color"
       },
       "primary-200": {
-        "value": "#8aa1d3",
+        "value": "#8abded",
         "type": "color"
       },
       "primary-300": {
-        "value": "#5476bf",
+        "value": "#549fe4",
         "type": "color"
       },
       "primary-400": {
-        "value": "#335cb3",
+        "value": "#338cdf",
         "type": "color"
       },
       "primary-500": {
-        "value": "#0033a0",
+        "value": "#006fd7",
         "type": "color"
       },
       "primary-600": {
-        "value": "#002e92",
+        "value": "#0065c4",
         "type": "color"
       },
       "primary-700": {
-        "value": "#002472",
+        "value": "#004f99",
         "type": "color"
       },
       "primary-800": {
-        "value": "#001c58",
+        "value": "#003d76",
         "type": "color"
       },
       "primary-900": {
-        "value": "#001543",
+        "value": "#002f5a",
         "type": "color"
       }
     },
@@ -300,61 +300,65 @@
         "type": "color"
       },
       "black": {
-        "value": "#000",
+        "value": "#000000",
         "type": "color"
       }
     }
   },
   "Components": {
+    "card-border-color": {
+      "value": "#dde0e4",
+      "type": "color"
+    },
     "Card": {
       "card-border-color": {
-        "value": "{Foundation.Neutral.neutral-100}",
+        "value": "#dde0e4",
         "type": "color"
       },
       "card-hover-border-color": {
-        "value": "{Foundation.Secondary.secondary-100}",
+        "value": "#c8ecf5",
         "type": "color"
       }
     },
     "Button": {
       "button-primary-background-color": {
-        "value": "{Foundation.Primary.primary-500}",
-        "type": "color"
-      },
-      "button-primary-hover-background-color": {
-        "value": "{Foundation.Primary.primary-700}",
+        "value": "#0033a0",
         "type": "color"
       },
       "button-primary-color": {
-        "value": "{Foundation.Absolutes.white}",
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "button-primary-hover-background-color": {
+        "value": "#002472",
         "type": "color"
       },
       "button-secondary-background-color": {
-        "value": "{Foundation.Primary.primary-50}",
+        "value": "#e6ebf6",
         "type": "color"
       },
       "button-secondary-hover-background-color": {
-        "value": "{Foundation.Primary.primary-100}",
+        "value": "#b0c0e2",
         "type": "color"
       },
       "button-secondary-color": {
-        "value": "{Foundation.Primary.primary-500}",
+        "value": "#0033a0",
         "type": "color"
       }
     },
     "Icon": {
       "icon-default-fill": {
-        "value": "{Foundation.Secondary.secondary-300}",
+        "value": "#88d7ea",
         "type": "color"
       }
     },
     "Input": {
       "input-border-color": {
-        "value": "{Foundation.Neutral.neutral-100}",
+        "value": "#dde0e4",
         "type": "color"
       },
       "input-focus-border-color": {
-        "value": "{Foundation.Primary.primary-200}",
+        "value": "#8aa1d3",
         "type": "color"
       }
     }

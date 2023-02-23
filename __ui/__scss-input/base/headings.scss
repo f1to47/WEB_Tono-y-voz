@@ -47,6 +47,34 @@ p{
 
 
 
+  
+  
+  .highlight-container, .highlight {
+    position: relative;
+    // color: var(--neutral-900);
+ 
+  }
+  
+  .highlight-container {
+    display: inline-block;
+  }
+  .highlight-container:before {
+    content: " ";
+    display: block;
+    height: 80%;
+    width: 100%;
+    margin-left: -3px;
+    margin-right: -3px;
+    position: absolute;
+    background: var(--secondary-100);
+    // transform: rotate(3deg);
+    bottom: -1px;
+    left: -1px;
+    // border-radius: 20% 25% 20% 24%;
+    // border-radius: 6px;
+    padding: 10px 3px 3px 10px;
+  }
+
 
 
 

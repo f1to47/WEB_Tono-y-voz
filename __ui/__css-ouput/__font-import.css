@@ -221,8 +221,8 @@
   src: url("../../__font-library/fs-joey/FSJoey-HeavyItalic.eot?") format("eot"), url("../../__font-library/fs-joey/FSJoey-HeavyItalic.woff") format("woff"), url("../../__font-library/fs-joey/FSJoey-HeavyItalic.ttf") format("truetype"); }
 
 @font-face {
-  font-family: "capital-icons";
+  font-family: "base-icons";
   font-weight: eot woff ttf;
-  src: url("../../__font-library/icon-library/icomoon.eot?") format("eot"), url("../../__font-library/icon-library/icomoon.woff") format("woff"), url("../../__font-library/icon-library/icomoon.ttf") format("truetype"), url("../../__font-library/icon-library/icomoon.svg#capital-icons") format("svg"); }
+  src: url("../../__font-library/icon-library/icomoon.eot?") format("eot"), url("../../__font-library/icon-library/icomoon.woff") format("woff"), url("../../__font-library/icon-library/icomoon.ttf") format("truetype"), url("../../__font-library/icon-library/icomoon.svg#base-icons") format("svg"); }
 
 /*# sourceMappingURL=__font-import.css.map */

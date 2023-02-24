@@ -1,5 +1,11 @@
- 
 
+
+
+
+#swiper-proto{
+  margin-top: 68px;
+ 
+}
   .layout-sidebar{
     @include disp(flex);
     @include geneBrow(flex-direction, row);
@@ -38,11 +44,7 @@ flex: 0 0 400px;
 
  flex: 0 1 calc(100% - 300px);
  
- > .container{
-
-
-  // padding-left: 400px;
- }
+ 
   }
   
   

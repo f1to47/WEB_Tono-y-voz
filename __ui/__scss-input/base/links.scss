@@ -1,13 +1,13 @@
 a{ 
     text-decoration: underline;
-    color: var(--primary) ;
+    color: var(--secondary-600) ;
 
     &:visited {
-        color: var(--primary) ; 
+        color: var(--secondary-600) ; 
     }
 
     &:hover{
-        color: var(--primary-variant-400) ; 
+        color: var(--primary-300) ; 
      
     }
 

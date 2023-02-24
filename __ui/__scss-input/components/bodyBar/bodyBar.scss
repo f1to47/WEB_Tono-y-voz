@@ -1,20 +1,6 @@
-#swiper-body-proto{
-flex: 0 1 calc(100% - 400px);
-height: calc(100vh - 68px);
-
-overflow-y: scroll;
-@include mdMax{
-	flex: 0 0 100%;
-}
-}
 .bodybar {
-
 	margin-left: auto;
-	
-width: 100%;
-
-
-
+	flex: 0 1 calc(100% - 410px);
 	// background-color: aqua;
 
 	&.home-bodybar {

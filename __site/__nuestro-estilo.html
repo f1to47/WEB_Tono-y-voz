@@ -8,10 +8,7 @@
     <title>Manual tono y voz</title>
     <link rel="stylesheet" href="../__ui/__css-ouput/__font-import.css">
     <link rel="stylesheet" href="../__ui/__css-ouput/_core.css">
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-  />
+   
   
 </head>
 
@@ -39,13 +36,13 @@
             
             
         </header>
-        <div id="swiper-proto">
-        <div id="swiper-wrapper-proto" class="layout-sidebar ">
+     
+       
 
 
+        <div class="layout-sidebar">
 
-
-    <div id="swiper-menu-proto">
+   
             <div id="menu" class="menu menu-basics sidebar sidebar-left">
                 <div class="menu-principal">
                 
@@ -184,9 +181,9 @@
 
                 </div>
             </div>
-        </div>    
-        <div id="swiper-body-proto">    
-            <div id="body" class="bodybar bodybar-basics ">
+       
+
+            <div class="bodybar ">
                 <div class="container">
                     <section id="nuestro-estilo" class="nav-section intro-section">
                         <div id="nuestro-estilo-anchor" class="nav-anchor"></div>
@@ -1070,77 +1067,19 @@
 
                 </div>
             </div>
-            </div>
            
-        </div>
-    </div>
+           
+      </div>
+
     </div>
     <script src="./src/js/scrollTo.js"></script>
     <script src="./src/js/components/modal/modal.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
-
-
-
-<script>
- 
-
-
-function myFunction(x) {
-
-    let swiperProto = document.getElementById('swiper-proto');
-let swiperWrapperProto = document.getElementById('swiper-wrapper-proto');
-let swiperMenuProto = document.getElementById('swiper-menu-proto');
-let swiperBodyProto = document.getElementById('swiper-body-proto');
-let openMenu = document.getElementById('openMenu');
-
-  if (x.matches) { // If media query matches
-
-
-openMenu.addEventListener("click", function(){
-    alert();
-    swiper.slideTo(0);
-    openMenu.classList.toggle("change");
-});
-
-    
-
-swiperProto.classList.add('swiper');
-swiperWrapperProto.classList.add('swiper-wrapper');
-swiperWrapperProto.classList.remove('layout-sidebar');
-swiperMenuProto.classList.add('swiper-slide');
-swiperBodyProto.classList.add('swiper-slide');
-
-
-    const swiper = new Swiper('.swiper', {
-
-
-loop: false,
-reverseDirection: true,
-initialSlide: 1,
-
-
-});
-
-  }else{
-    swiperProto.classList.remove('swiper');
-swiperWrapperProto.classList.remove('swiper-wrapper');
-swiperWrapperProto.classList.add('layout-sidebar');
-swiperMenuProto.classList.remove('swiper-slide');
-swiperBodyProto.classList.remove('swiper-slide');
-}
-}
-
-var x = window.matchMedia("(max-width: 760px)")
-myFunction(x) // Call listener function at run time
-x.addListener(myFunction) // Attach listener function on state changes
+   
 
 
 
 
 
-
-</script>
 
 </body>
 

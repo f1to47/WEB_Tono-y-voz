@@ -1,27 +1,15 @@
-#swiper-menu-proto{
-	flex: 0 0 400px;
-
-
-	@include mdMin{
-
-}
-	@include mdMax{
-		flex: 0 0 100%;
-		
-	}
-}
 .menu {
-
-	position: initial;
-    
 
 	top: 68px;
 	bottom: 0;
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
-
+	width: 410px;
+	position: fixed;
 	height: 100vh;
+	flex: 0 0 400px;
+	// background-color: aquamarine;
+
 
 
 	a {
@@ -259,7 +247,7 @@
 	@include mdMax {
 		width: 100% !important;
 		max-width: 100% !important;
-		// display: none;
+		display: none;
 
 		
 	}

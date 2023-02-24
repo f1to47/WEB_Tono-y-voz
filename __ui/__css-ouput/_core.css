@@ -7509,19 +7509,15 @@ table {
     content: "\e926"; }
   .LAYOUT .icon-facebook:before {
     content: "\e927"; }
-  .LAYOUT #swiper-menu-proto {
-    flex: 0 0 400px; }
-    @media (max-width: 760px) {
-      .LAYOUT #swiper-menu-proto {
-        flex: 0 0 100%; } }
   .LAYOUT .menu {
-    position: initial;
     top: 68px;
     bottom: 0;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    height: 100vh; }
+    width: 410px;
+    position: fixed;
+    height: 100vh;
+    flex: 0 0 400px; }
     .LAYOUT .menu a {
       text-decoration: none; }
     .LAYOUT .menu .menu-header {
@@ -7631,7 +7627,8 @@ table {
     @media (max-width: 760px) {
       .LAYOUT .menu {
         width: 100% !important;
-        max-width: 100% !important; } }
+        max-width: 100% !important;
+        display: none; } }
   .LAYOUT .mobile-controller {
     position: fixed;
     zoom: 0.7;
@@ -10351,16 +10348,9 @@ table {
       border-radius: 50%;
       background-color: var(--primary-500);
       z-index: 1; }
-  .LAYOUT #swiper-body-proto {
-    flex: 0 1 calc(100% - 400px);
-    height: calc(100vh - 68px);
-    overflow-y: scroll; }
-    @media (max-width: 760px) {
-      .LAYOUT #swiper-body-proto {
-        flex: 0 0 100%; } }
   .LAYOUT .bodybar {
     margin-left: auto;
-    width: 100%; }
+    flex: 0 1 calc(100% - 410px); }
     .LAYOUT .bodybar.home-bodybar {
       flex: 0 1 calc(100% - 160px); }
   .LAYOUT .home .bodybar {
@@ -10637,8 +10627,5 @@ table {
       align-items: center;
       justify-content: center;
       font-weight: 700; }
-
-html {
-  overflow: hidden; }
 
 /*# sourceMappingURL=_core.css.map */

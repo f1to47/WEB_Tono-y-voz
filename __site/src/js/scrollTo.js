@@ -1,20 +1,29 @@
+let openMenu = document.getElementById('openMenu');
+let lateralNav = document.getElementById('lateralNav');
+
+openMenu.addEventListener("click", function(){
+   
+  openMenu.classList.toggle("change");
+  lateralNav.classList.toggle("open");
+
+});
+
+
 const scrollNav = (id, e) => {
     const allItems = document.querySelectorAll('.nav-sub-item');
-
    Array.from(allItems).map(item => {item.classList.remove('active')})
-
-
-
-
-
    var element = document.getElementById(id);
     var headerOffset = 65;
     var elementPosition = element.getBoundingClientRect().top;
     var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+    
+    openMenu.classList.remove('change');
+    lateralNav.classList.remove('open');
   
     window.scrollTo({
          top: offsetPosition,
-         behavior: "smooth"
+         behavior: "smooth",
     });
 
 

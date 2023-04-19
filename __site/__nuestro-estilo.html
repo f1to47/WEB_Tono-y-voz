@@ -8,7 +8,10 @@
     <title>Manual tono y voz</title>
     <link rel="stylesheet" href="../__ui/__css-ouput/__font-import.css">
     <link rel="stylesheet" href="../__ui/__css-ouput/_core.css">
-   
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
   
 </head>
 
@@ -20,7 +23,7 @@
 
             <div class="logo">
                 <a href="./__inicio.html" class="menu-header">
-                  <img src="./src/img/AFPCapital_logotipo.svg" alt="">
+                  <img src="./src/img/AFPCapital_logotipo.svg" alt="AFP Capital">
                 </a>
             </div>
             <div class="title">
@@ -33,17 +36,19 @@
                 <div class="bar2"></div>
                 <div class="bar3"></div>
               </div>
+
+
             
             
         </header>
-     
-       
+        
+        <div class="layout-sidebar ">
 
 
-        <div class="layout-sidebar">
 
-   
-            <div id="menu" class="menu menu-basics sidebar sidebar-left">
+
+    
+            <div id="lateralNav" class="menu  sidebar sidebar-left">
                 <div class="menu-principal">
                 
                     <a href="./__inicio.html" class="menu-principal-item nav-item-inicio">
@@ -61,12 +66,15 @@
                     <a href="./__nuestro-estilo.html" class="menu-principal-item nav-item-estilo active">
                         <i class="icon icon-Estilo-fill"></i> Estilo
                     </a>
+                    <a href="./__nosotros.html" class="menu-principal-item nav-item-estilo">
+                        <i class="icon icon-Estilo-fill"></i> Nosotros
+                    </a>
                 </div>
                 <div class="menu-sub menu-sub-tono active">
                     <div class="nav-item">
                         <div onclick="scrollNav('nuestro-estilo-anchor', event.target)" data-url="nuestro-estilo-anchor"
                             class="nav-item nav-section-item">
-                            <a href="">Nuestro estilo</a>
+                            <a href=#">Nuestro estilo</a>
                         </div>
                     </div>
 
@@ -74,50 +82,50 @@
                     <div class="nav-item">
                         <div onclick="scrollNav('como-nos-presentamos-anchor', event.target)"
                             data-url="como-nos-presentamos-anchor" class="nav-item nav-section-item">
-                            <a href="">Cómo nos presentamos</a>
+                            <a href=#">Cómo nos presentamos</a>
                         </div>
                     </div>
 
                     <div class="nav-item">
                         <div onclick="scrollNav('inclusividad-de-genero-anchor', event.target)"
                             data-url="inclusividad-de-genero-anchor" class="nav-item nav-section-item">
-                            <a href="">Inclusividad de género</a>
+                            <a href=#">Inclusividad de género</a>
                         </div>
                     </div>
 
                     <div class="nav-item">
                         <div onclick="scrollNav('como-escribir-anchor', event.target)" data-url="como-escribir-anchor"
                             class="nav-item nav-section-item">
-                            <a href="">Cómo escribir</a>
+                            <a href=#">Cómo escribir</a>
                         </div>
 
 
                         <div onclick="scrollNav('textos-para-botones-anchor', event.target)"
                             data-url="textos-para-botones-anchor" class="nav-item nav-sub-item">
-                            <a href="">Botones</a>
+                            <a href=#">Botones</a>
                         </div>
 
 
                         <div onclick="scrollNav('fechas-anchor', event.target)" data-url="fechas-anchor"
                             class="nav-item nav-sub-item">
-                            <a href="">Fechas</a>
+                            <a href=#">Fechas</a>
                         </div>
 
                         <div onclick="scrollNav('numeros-telefonicos-anchor', event.target)"
                             data-url="numeros-telefonicos-anchor" class="nav-item nav-sub-item">
-                            <a href="">Números telefónicos</a>
+                            <a href=#">Números telefónicos</a>
                         </div>
 
                         <div onclick="scrollNav('horas-anchor', event.target)" data-url="horas-anchor"
                             class="nav-item nav-sub-item">
-                            <a href="">Horas</a>
+                            <a href=#">Horas</a>
                         </div>
 
 
                   
                             <div onclick="scrollNav('conceptos-clave-anchor', event.target)"
                                 data-url="conceptos-clave-anchor" class="nav-item nav-sub-item">
-                                <a href="">Conceptos clave</a>
+                                <a href=#">Conceptos clave</a>
                             </div>
                        
                     </div>
@@ -126,24 +134,24 @@
                     <div class="nav-item">
                         <div onclick="scrollNav('uso-de-resaltes-tipográficos-anchor', event.target)"
                             data-url="uso-de-resaltes-tipográficos-anchor" class="nav-item nav-section-item">
-                            <a href="">Resaltes tipográficos</a>
+                            <a href=#">Resaltes tipográficos</a>
                         </div>
 
 
                         <div onclick="scrollNav('uso-de-bold-anchor', event.target)" data-url="uso-de-bold-anchor"
                             class="nav-item nav-sub-item">
-                            <a href="">Uso de bold</a>
+                            <a href=#">Uso de bold</a>
                         </div>
 
                         <div onclick="scrollNav('uso-de-mayusculas-anchor', event.target)"
                             data-url="uso-de-mayusculas-anchor" class="nav-item nav-sub-item">
-                            <a href="">Uso de mayúsculas</a>
+                            <a href=#">Uso de mayúsculas</a>
                         </div>
 
 
                         <div onclick="scrollNav('uso-de-subrayados-anchor', event.target)"
                             data-url="uso-de-subrayados-anchor" class="nav-item nav-sub-item">
-                            <a href="">Uso de subrayado</a>
+                            <a href=#">Uso de subrayado</a>
                         </div>
 
 
@@ -152,7 +160,7 @@
 
       <div class="nav-item">
         <div onclick="scrollNav('uso-de-emojis-anchor', event.target)"  data-url="uso-de-emojis-anchor" class="nav-item nav-section-item">
-            <a href="">Emojis</a>
+            <a href=#">Emojis</a>
         </div>
       </div>
                    
@@ -165,7 +173,7 @@
 
                     <div onclick="scrollNav('fotografias-anchor', event.target)"
                         data-url="fotografias-anchor" class="nav-item nav-section-item">
-                        <a href="">Fotografías</a>
+                        <a href=#">Fotografías</a>
                     </div>
 
 
@@ -181,9 +189,9 @@
 
                 </div>
             </div>
-       
-
-            <div class="bodybar ">
+        
+           
+            <div id="body" class="bodybar bodybar-basics ">
                 <div class="container">
                     <section id="nuestro-estilo" class="nav-section intro-section">
                         <div id="nuestro-estilo-anchor" class="nav-anchor"></div>
@@ -1066,20 +1074,37 @@
 
 
                 </div>
-            </div>
-           
-           
-      </div>
 
+                <div class="footer">
+                    <div class="container">
+                        <p>
+                            Este manual fue creado y es mantenido por el área de Experiencia Digital de AFP Capital.
+                        </p>
+
+                        <p>
+
+Si quieres saber más sobre su uso o tienes otras dudas escríbenos a: <a href="mailto: vozytono@afpcapital.cl">vozytono@afpcapital.cl</a> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+       
+           
+        </div>
+    
     </div>
     <script src="./src/js/scrollTo.js"></script>
     <script src="./src/js/components/modal/modal.js"></script>
-   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 
 
 
+<script>
 
+
+
+</script>
 
 </body>
 

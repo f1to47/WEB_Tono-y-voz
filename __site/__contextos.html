@@ -17,12 +17,18 @@
 
          <div class="logo">
              <a href="./__inicio.html" class="menu-header">
-               <img src="./src/img/AFPCapital_logotipo.svg" alt="">
+               <img src="./src/img/AFPCapital_logotipo.svg" alt="AFP Capital">
              </a>
          </div>
          <div class="title">
              Manual de voz y tono
          </div>
+
+         <div id="openMenu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
          
          
      </header>
@@ -42,7 +48,7 @@
          </div>
 
          
-         <div class="menu sidebar sidebar-left">
+         <div id="lateralNav" class="menu sidebar sidebar-left">
 
            
 
@@ -65,56 +71,59 @@
                <a href="./__nuestro-estilo.html" class="menu-principal-item nav-item-estilo">
                   <i class="icon icon-Estilo-fill"></i> Estilo
                </a>
+               <a href="./__nosotros.html" class="menu-principal-item nav-item-estilo">
+                  <i class="icon icon-Estilo-fill"></i> Nosotros
+              </a>
             </div>
             <div class="menu-sub menu-sub-tono active">
                <div class="nav-item">
                   <div onclick="scrollNav('contextos-anchor', event.target)" data-url="contextos-anchor"
                      class="nav-item nav-section-item">
-                     <a href="">Situaciones</a>
+                     <a href=#">Situaciones</a>
                   </div>
                </div>
                <div class="nav-item">
                   <div onclick="scrollNav('tarea-completada-anchor', event.target)" data-url="tarea-completada-anchor"
                      class="nav-item nav-section-item">
-                     <a href="">Tarea completada</a>
+                     <a href=#">Tarea completada</a>
                   </div>
                </div>
                <div class="nav-item">
                   <div onclick="scrollNav('errores-anchor', event.target)" data-url="errores-anchor"
                      class="nav-item nav-section-item">
-                     <a href="">Errores</a>
+                     <a href=#">Errores</a>
                   </div>
                </div>
                <div class="nav-item">
                   <div onclick="scrollNav('precondiciones-no-cumplidas-anchor', event.target)"
                      data-url="precondiciones-no-cumplidas-anchor" class="nav-item nav-section-item">
-                     <a href="">Precondiciones no cumplidas</a>
+                     <a href=#">Precondiciones no cumplidas</a>
                   </div>
                </div>
                <div class="nav-item">
                   <div onclick="scrollNav('ingreso-de-datos-incorrectos-anchor', event.target)"
                      data-url="ingreso-de-datos-incorrectos-anchor" class="nav-item nav-section-item">
-                     <a href="">Ingreso de datos incorrectos</a>
+                     <a href=#">Ingreso de datos incorrectos</a>
                   </div>
 
                </div>
                <div class="nav-item">
                   <div onclick="scrollNav('cambios-bloqueantes-anchor', event.target)"
                      data-url="cambios-bloqueantes-anchor" class="nav-item nav-section-item">
-                     <a href="">Cambios bloqueantes</a>
+                     <a href=#">Cambios bloqueantes</a>
                   </div>
                </div>
                <div class="nav-item">
                   <div onclick="scrollNav('entrega-de-conocimiento-anchor', event.target)"
                      data-url="entrega-de-conocimiento-anchor" class="nav-item nav-section-item">
-                     <a href="">Entrega de conocimiento</a>
+                     <a href=#">Entrega de conocimiento</a>
                   </div>
                </div>
 
                <div class="nav-item">
                   <div onclick="scrollNav('procesos-de-espera-anchor', event.target)"
                      data-url="procesos-de-espera-anchor" class="nav-item nav-section-item">
-                     <a href="">Procesos de espera</a>
+                     <a href=#">Procesos de espera</a>
                   </div>
                </div>
 
@@ -122,7 +131,7 @@
                <div class="nav-item">
                   <div onclick="scrollNav('advertencias-anchor', event.target)" data-url="advertencias-anchor"
                      class="nav-item nav-section-item">
-                     <a href="">Advertencias</a>
+                     <a href=#">Advertencias</a>
                   </div>
                </div>
             </div>
@@ -788,7 +797,7 @@ Por favor espera un momento a que termine el proceso
                         <div class="alert alert-info emphasis_-_1">
                            <p>
                               No consideramos como advertencia algo que impida el inicio de un proceso, esos casos son conocidos como 
-                              <a href="" onclick="scrollNav('precondiciones-no-cumplidas-anchor', event.target)"
+                              <a  onclick="scrollNav('precondiciones-no-cumplidas-anchor', event.target)"
                               data-url="precondiciones-no-cumplidas-anchor" class="nav-item nav-section-item">Precondiciones no cumplidas</a>
                               
                            </p>
@@ -850,6 +859,18 @@ Por favor espera un momento a que termine el proceso
                   </section>
                </section>
             </div>
+            <div class="footer">
+               <div class="container">
+                   <p>
+                       Este manual fue creado y es mantenido por el área de Experiencia Digital de AFP Capital.
+                   </p>
+
+                   <p>
+
+Si quieres saber más sobre su uso o tienes otras dudas escríbenos a: <a href="mailto: vozytono@afpcapital.cl">vozytono@afpcapital.cl</a> 
+                   </p>
+               </div>
+           </div>
          </div>
       </div>
    </div>

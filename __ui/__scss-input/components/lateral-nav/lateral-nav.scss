@@ -1,7 +1,7 @@
 
 .menu {
 
-	top: 68px;
+	top: 70px;
 	bottom: 0;
 	display: flex;
 	flex-wrap: wrap;
@@ -10,6 +10,20 @@
 	height: 100vh;
 	flex: 0 0 400px;
 	// background-color: aquamarine;
+	z-index: 99;
+
+	@include transition_200; 
+
+
+	@include mdMax {
+		width: 100% !important;
+		max-width: 100% !important;
+			margin-left: -100%;
+
+			&.open{
+				margin-left: 0%;
+			}
+	}
 
 
 
@@ -245,13 +259,7 @@
 	}
 
 	
-	@include mdMax {
-		width: 100% !important;
-		max-width: 100% !important;
-		display: none;
-
-		
-	}
+	
 }
 
 .mobile-controller{
